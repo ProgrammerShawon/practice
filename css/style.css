@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*
+2 ways: 
+display: grid;
+display: flex;
+*/
+
+/*
+marign: 
+border: 
+padding: 
+content:
+*/
+/* 
+ */
+
+.header {
+  background-color: rgba(229, 84, 115, 0.1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 80px 0px 80px;
+  gap: 40px;
+}
+
+.header .left-side-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header .left-side-content h1 {
+  font-size: 60px;
+}
+
+.header .left-side-content button {
+  font-size: 30px;
+  width: fit-content;
+  padding: 10px 30px 10px 30px;
+  margin-top: 30px;
+  border: none;
+  background-color: aqua;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.our-feature-flowers{
+padding: 0px 80px 0px 80px;
+}
+
+.feature-1{
+  text-align: center;
+  margin: 100px;
+  
+  
+
+}
+.feature-1 p{
+  margin-top: 10px;
+}
+.feature-2{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  column-gap:50px ;
+   
+}
+
+.flower-card .img{
+  height: 538px;
+  display:flex;
+  align-items: end;
+  justify-content: center;
+
+}
+.flower-card:nth-child(1) .img{
+  background: rgba(167, 33, 98, 0.15);
+  border-radius:300px 300px 0px 0px;
+}
+
+.flower-card:nth-child(2) .img{
+  background: rgba(5, 151, 160, 0.15);
+  border-radius:300px 300px 0px 0px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.flower-card:nth-child(3) .img{
+  background: rgba(71, 125, 17, 0.15);
+  border-radius:300px 300px 0px 0px;
+} 
+.flower-card .img img{
+  height: 428px;
+}
